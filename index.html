@@ -63,5 +63,27 @@
       nomodule
       src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"
     ></script>
+    <script>
+  const arSound = document.querySelector('#ar-sound');
+  const arButton = document.querySelector('#ar-button');
+  const modelViewer = document.querySelector('model-viewer');
+
+  arButton.addEventListener('click', async () => {
+    try {
+      arSound.volume = 1;
+      arSound.currentTime = 0;
+      await arSound.play();
+    } catch (error) {
+      console.log('Audio konnte nicht gestartet werden:', error);
+    }
+  });
+
+  modelViewer.addEventListener('ar-status', (event) => {
+    if (event.detail.status === 'not-presenting') {
+      arSound.pause();
+      arSound.currentTime = 0;
+    }
+  });
+</script>
   </body>
 </html>
