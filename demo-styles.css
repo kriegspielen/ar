@@ -18,10 +18,11 @@ body {
 model-viewer {
   width: 100vw;
   max-width: none;
-  height: 50vh;
+  height: 44vh;
   position: relative;
   display: block;
   margin: 0 auto;
+  padding-top: 80px;
   background-color: unset;
 }
 
@@ -33,7 +34,7 @@ model-viewer {
   background-color: unset;
 
 position: absolute;
-top: -10px;
+top: 10px;
 left: 50%;
 right: auto;
 transform: translateX(-50%);
@@ -143,7 +144,7 @@ h img {
   margin: 0;
   font-size: 16px;
   line-height: 1.35;
-  text-align: justify;
+  text-align: left;
   hyphens: auto;
   
 }
