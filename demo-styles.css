@@ -138,3 +138,10 @@ h img {
   font-size: 16px;
   line-height: 1.35;
 }
+  .landing-image {
+  display: block;
+  width: 100%;
+  max-width: 620px;
+  height: auto;
+  margin: 16px auto 24px auto;
+}
