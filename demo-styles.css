@@ -18,7 +18,7 @@ body {
 model-viewer {
   width: 100vw;
   max-width: none;
-  height: 48vh;
+  height: 52vh;
   position: relative;
   display: block;
   margin: 0 auto;
@@ -34,7 +34,7 @@ model-viewer {
   background-color: unset;
 
 position: absolute;
-top: 48px;
+top: 8px;
 left: 50%;
 right: auto;
 transform: translateX(-50%);
@@ -111,12 +111,11 @@ margin: 0;
   model-viewer {
   width: 100vw;
   max-width: none;
-  height: 48vh;
+  height: 52vh;
   position: relative;
   display: block;
   margin: 0 auto;
   box-sizing: border-box;
-}
   }
 }
 
