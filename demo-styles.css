@@ -34,7 +34,7 @@ model-viewer {
   background-color: unset;
 
 position: absolute;
-top: 12px;
+top: 8px;
 left: 50%;
 right: auto;
 transform: translateX(-50%);
