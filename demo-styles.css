@@ -1,12 +1,12 @@
 body {
-  margin: 1em;
+  margin: 0em;
   padding: 0;
   font-family: Google Sans, Noto, Roboto, Helvetica Neue, sans-serif;
   color: #000;
 }
 
 #card {
-  margin: 1.5em auto 1em auto;
+  margin: 0.5em auto 0.5em auto;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -16,8 +16,8 @@ body {
 }
 
 model-viewer {
-  width: 100%;
-  max-width: 520px;
+  width: 100vw;
+  max-width: none;
   height: 50vh;
   position: relative;
   display: block;
@@ -108,8 +108,8 @@ margin: 0;
   }
 
   model-viewer {
-    width: 100%;
-    max-width: 520px;
+    width: 100vw;
+    max-width: none;
     height: 50vh;
     position: relative;
     display: block;
@@ -125,7 +125,7 @@ h img {
 
 .intro-text {
   padding: 28px 24px 16px 24px;
-  max-width: 620px;
+  max-width: 720px;
   margin: 0 auto;
   font-family: system-ui, sans-serif;
   color: #111;
@@ -143,6 +143,9 @@ h img {
   margin: 0;
   font-size: 16px;
   line-height: 1.35;
+  text-align: justify;
+  hyphens: auto;
+  
 }
   .landing-image {
   display: block;
