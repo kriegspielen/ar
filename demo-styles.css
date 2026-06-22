@@ -150,8 +150,8 @@ h img {
 }
   .landing-image {
   display: block;
-  width: 100%;
-  max-width: 520px;
+  width: 85%;
+  max-width: 420px;
   height: auto;
   margin: 16px auto 24px auto;
 }
