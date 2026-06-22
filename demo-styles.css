@@ -18,11 +18,12 @@ body {
 model-viewer {
   width: 100vw;
   max-width: none;
-  height: 44vh;
+  height: 42vh;
   position: relative;
   display: block;
   margin: 0 auto;
-  padding-top: 80px;
+  padding-top: 110px;
+  box-sizing: border-box;
   background-color: unset;
 }
 
@@ -34,7 +35,7 @@ model-viewer {
   background-color: unset;
 
 position: absolute;
-top: 10px;
+top: 24px;
 left: 50%;
 right: auto;
 transform: translateX(-50%);
@@ -109,12 +110,15 @@ margin: 0;
   }
 
   model-viewer {
-    width: 100vw;
-    max-width: none;
-    height: 50vh;
-    position: relative;
-    display: block;
-    margin: 0 auto;
+  width: 100vw;
+  max-width: none;
+  height: 42vh;
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  padding-top: 110px;
+  box-sizing: border-box;
+}
   }
 }
 
