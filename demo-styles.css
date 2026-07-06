@@ -27,7 +27,7 @@ model-viewer {
 }
 
 #ar-button {
-  background-image: url(https://kraetschmerdavid.github.io/friendlyfire//WEB_ARButton.png);
+  background-image: url(WEB_ARButton.png);
   background-repeat: no-repeat;
   background-size: 100% auto;
   background-position: center;
@@ -65,7 +65,7 @@ margin: 0;
 }
 
 #qr-button {
-  background-image: url(https://kraetschmerdavid.github.io/friendlyfire//WEB_ARButton.png);
+  background-image: url(WEB_ARButton.png);
   background-repeat: no-repeat;
   background-size: 100% auto;
   background-position: center;
@@ -91,7 +91,7 @@ margin: 0;
 }
 
 #qr-button:hover {
-  background-image: url(https://kraetschmerdavid.github.io/friendlyfire/qr_code.png);
+  background-image: url(qr_code.png);
   height: 200px;
   width: 200px;
 }
