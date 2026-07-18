@@ -155,16 +155,18 @@ h img {
   height: auto;
   margin: 16px auto 24px auto;
 }
+
 .image-caption {
-  padding: 4px 24px 0 24px;
+  padding: 0 24px;
   max-width: 720px;
   margin: 0 auto;
   font-family: system-ui, sans-serif;
   color: #111;
+  box-sizing: border-box;
 }
 
 .image-caption p {
-  margin: 0;
+  margin: 0 0 16px 0;
   font-size: 16px;
   line-height: 1.35;
   text-align: left;
