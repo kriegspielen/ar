@@ -34,7 +34,7 @@ model-viewer {
   background-color: unset;
 
 position: absolute;
-top: -4px;
+top: -12px;
 left: 50%;
 right: auto;
 transform: translateX(-50%);
@@ -116,6 +116,7 @@ margin: 0;
   display: block;
   margin: 0 auto;
   box-sizing: border-box;
+  overflow: visible;
   }
 }
 
