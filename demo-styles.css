@@ -16,9 +16,9 @@ body {
 }
 
 model-viewer {
-  width: 100vw;
+  width: 85vw;
   max-width: none;
-  height: 58vh;
+  height: 48vh;
   position: relative;
   display: block;
   margin: 0 auto;
@@ -109,9 +109,9 @@ margin: 0;
   }
 
   model-viewer {
-  width: 100vw;
-  max-width: none;
-  height: 58vh;
+  width: 85vw;
+  max-width: 420px;
+  height: 48vh;
   position: relative;
   display: block;
   margin: 0 auto;
